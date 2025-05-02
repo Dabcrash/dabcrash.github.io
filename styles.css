@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f2;
+    color: #111;
+}
+
+header {
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.busqueda {
+    flex-grow: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+}
+
+.boton-buscar {
+    padding: 8px 15px;
+    background-color: #febd69;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.acciones a {
+    margin-left: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+/*Productos*/
+
+main {
+    padding: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.productos {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto button {
+    background-color: #ffd814;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+footer{
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
